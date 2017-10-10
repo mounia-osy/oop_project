@@ -3,7 +3,7 @@ import requests
 from pprint import pprint
 import json
 
-class Weather():
+class Weather_API():
 
     def GetMeteo(self):
         self.url = 'https://api.openweathermap.org/data/2.5/weather?q=Paris&APPID=201999caea9038bf5f77ce8a08f8d1af'
